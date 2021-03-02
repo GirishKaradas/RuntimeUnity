@@ -47,6 +47,7 @@ public class UnityPlayerActivity extends BaseActivity
         setContentView(mUnityPlayer);
         mUnityPlayer.requestFocus();
         Toast.makeText(this, "Getting the Model", Toast.LENGTH_SHORT).show();
+
     }
 
     @Override protected void onNewIntent(Intent intent) {
@@ -168,9 +169,8 @@ public class UnityPlayerActivity extends BaseActivity
                     UnityPlayer.UnitySendMessage("GameObject", "SideView", "");
 
                     break;
-
-
             }
         }
     }
+
 }

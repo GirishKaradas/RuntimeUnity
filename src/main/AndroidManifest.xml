@@ -4,7 +4,6 @@
     package="com.genius.runtimeunity"
     android:installLocation="preferExternal">
 
-
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"

@@ -18,9 +18,10 @@ public class MainActivity extends BaseActivity {
         switch (gesture){
             case TAP:
                 startActivity(new Intent(MainActivity.this, UnityPlayerActivity.class));
-                finish();
-                break;
+                return true;
+
+            default:
+                return super.onGesture(gesture);
         }
-        return super.onGesture(gesture);
     }
 }
