@@ -38,6 +38,7 @@ public class UnityPlayerActivity extends BaseActivity
     @Override protected void onCreate(Bundle savedInstanceState)
     {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         super.onCreate(savedInstanceState);
 
         String cmdLine = updateUnityCommandLineArguments(getIntent().getStringExtra("unity"));
