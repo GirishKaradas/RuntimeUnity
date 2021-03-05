@@ -34,9 +34,6 @@
         android:name="android.software.leanback"
         android:required="false" />
 
-    <meta-data
-        android:name="com.google.android.glass.TouchEnabledApplication"
-        android:value="true" />
 
     <application
         android:banner="@drawable/app_banner"
@@ -89,6 +86,10 @@
         <meta-data
             android:name="unity.splash-enable"
             android:value="True" />
+        <meta-data
+            android:name="com.google.android.glass.TouchEnabledApplication"
+            android:value="true" />
+
     </application>
 
 </manifest>
